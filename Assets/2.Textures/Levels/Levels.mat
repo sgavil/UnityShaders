@@ -7,8 +7,8 @@ Material:
   m_CorrespondingSourceObject: {fileID: 0}
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
-  m_Name: AnimationSprite
-  m_Shader: {fileID: 4800000, guid: 8439e0e8fd8de494f9a904c298cd592d, type: 3}
+  m_Name: Levels
+  m_Shader: {fileID: 4800000, guid: eeb0f53544a8fe34b855913932bcddc4, type: 3}
   m_ShaderKeywords: 
   m_LightmapFlags: 4
   m_EnableInstancingVariants: 0
@@ -20,15 +20,17 @@ Material:
     serializedVersion: 3
     m_TexEnvs:
     - _MainTex:
-        m_Texture: {fileID: 2800000, guid: abeace3131f76f14eb6aa8b695fd615b, type: 3}
+        m_Texture: {fileID: 2800000, guid: f0676fa141b28044bb1c7b805fea0ecc, type: 3}
         m_Scale: {x: 1, y: 1}
         m_Offset: {x: 0, y: 0}
     m_Floats:
-    - _CellAmount: 9
     - _Glossiness: 0.5
     - _Metallic: 0
-    - _Speed: 7.6
-    - _TexWidth: 1620
+    - _inBlack: 103
+    - _inGamma: 0.93
+    - _inWhite: 211
+    - _outBlack: 39
+    - _outWhite: 216
     m_Colors:
     - _Color: {r: 1, g: 1, b: 1, a: 1}
   m_BuildTextureStacks: []
