@@ -7,8 +7,8 @@ Material:
   m_CorrespondingSourceObject: {fileID: 0}
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
-  m_Name: BasicSurface
-  m_Shader: {fileID: 4800000, guid: 06db9e8376840af419a4bbb18e4d639c, type: 3}
+  m_Name: SpecularStandard
+  m_Shader: {fileID: 4800000, guid: faaa374bbf16cdd4494977bc6a06007c, type: 3}
   m_ShaderKeywords: 
   m_LightmapFlags: 4
   m_EnableInstancingVariants: 0
@@ -18,10 +18,17 @@ Material:
   disabledShaderPasses: []
   m_SavedProperties:
     serializedVersion: 3
-    m_TexEnvs: []
+    m_TexEnvs:
+    - _MainTex:
+        m_Texture: {fileID: 0}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
     m_Floats:
-    - _MySliderValue: 2.5
+    - _Glossiness: 0.5
+    - _Metallic: 0
+    - _SpecPower: 0.12
     m_Colors:
-    - _AmbientColor: {r: 0.754717, g: 0.754717, b: 0.754717, a: 1}
-    - _EmissiveColor: {r: 1, g: 1, b: 1, a: 1}
+    - _Color: {r: 1, g: 1, b: 1, a: 1}
+    - _MainColor: {r: 0.509434, g: 0.509434, b: 0.509434, a: 1}
+    - _SpecColor: {r: 0.6415094, g: 0.63482875, b: 0.55375576, a: 1}
   m_BuildTextureStacks: []
